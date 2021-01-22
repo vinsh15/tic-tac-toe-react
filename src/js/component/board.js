@@ -52,6 +52,7 @@ const Board = props => {
 				} else alert("Gano la figura x");
 				const aux1 = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
 				setBufferBoard(aux1);
+				setFigureActive("x");
 			}
 			if (
 				i == 7 &&
@@ -68,6 +69,7 @@ const Board = props => {
 				alert("Gano la vieja!!!");
 				const aux1 = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
 				setBufferBoard(aux1);
+				setFigureActive("x");
 			}
 		}
 	};
