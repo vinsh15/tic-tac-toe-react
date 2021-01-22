@@ -14,7 +14,7 @@ const Board = props => {
 		" "
 	]);
 
-	let [figureActive, setFigureActive] = useState(props.figureActive);
+	let [figureActive, setFigureActive] = useState("x");
 
 	function changeCell(figure, index) {
 		let aux = bufferBoard;
