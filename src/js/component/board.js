@@ -48,8 +48,8 @@ const Board = props => {
 				bufferBoard[[aux[0]]] === bufferBoard[aux[2]]
 			) {
 				if (figureActive == "x") {
-					alert("Gano la figura o");
-				} else alert("Gano la figura x");
+					alert("EL PLAYER 2 CON LA FIGURA O FUE EL GANADOR ");
+				} else alert("EL PLAYER 1 CON LA FIGURA X FUE EL GANADOR ");
 				const aux1 = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
 				setBufferBoard(aux1);
 				setFigureActive("x");
